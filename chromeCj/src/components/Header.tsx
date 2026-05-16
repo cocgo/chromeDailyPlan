@@ -25,7 +25,7 @@ export default function Header() {
           </div>
         </div>
         <div className="text-right text-xs text-blue-100">
-          <div>v1.0.1</div>
+          <div>v1.0.1 | <a href="https://actnow.top" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">官网</a></div>
           <div
             onClick={handleCopyWechat}
             className="cursor-pointer hover:text-white transition-colors"
